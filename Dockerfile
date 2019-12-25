@@ -5,7 +5,7 @@ COPY ./Api.Test/Api.Test.csproj ./
 RUN dotnet restore
 
 COPY . ./
-RUN dotnet publish
+RUN dotnet publish ./Api.Test/Api.Test.csproj
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app
