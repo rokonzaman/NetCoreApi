@@ -1,11 +1,11 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
 WORKDIR /app
 
-ADD ./Api.Test/Api.Test.csproj ./
+COPY ./Api.Test/Api.Test.csproj ./
 RUN dotnet restore
 
 COPY . ./
-RUN dotnet publish -c Release -o out/netcore-api.sln
+RUN dotnet publish -c Release -o out
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app
