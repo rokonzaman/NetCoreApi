@@ -4,7 +4,7 @@ WORKDIR /app
 ADD ./Api.Test/Api.Test.csproj ./
 RUN dotnet restore
 
-COPY /root/jenkins_agent/workspace/netcore_multi_master/. ./
+COPY . ./
 RUN dotnet publish -c Release -o out
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
