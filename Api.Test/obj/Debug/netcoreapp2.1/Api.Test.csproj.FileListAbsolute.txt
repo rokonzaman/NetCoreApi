@@ -1,0 +1,17 @@
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\bin\Debug\netcoreapp2.1\Api.Test.deps.json
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\bin\Debug\netcoreapp2.1\Api.Test.runtimeconfig.json
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\bin\Debug\netcoreapp2.1\Api.Test.runtimeconfig.dev.json
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\bin\Debug\netcoreapp2.1\Api.Test.dll
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\bin\Debug\netcoreapp2.1\Api.Test.pdb
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\bin\Debug\netcoreapp2.1\netcore-api.dll
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\bin\Debug\netcoreapp2.1\netcore-api.pdb
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\obj\Debug\netcoreapp2.1\Api.Test.csprojAssemblyReference.cache
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\obj\Debug\netcoreapp2.1\Api.Test.AssemblyInfoInputs.cache
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\obj\Debug\netcoreapp2.1\Api.Test.AssemblyInfo.cs
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\obj\Debug\netcoreapp2.1\Api.Test.csproj.CopyComplete
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\obj\Debug\netcoreapp2.1\Api.Test.dll
+C:\Users\Rokon\Desktop\git\shohoz\netcore\Api.Test\obj\Debug\netcoreapp2.1\Api.Test.pdb
