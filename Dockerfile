@@ -11,4 +11,4 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app
 COPY --from=build-env /app/Api.Test/bin/Debug/netcoreapp2.1/publish/ .
 EXPOSE 80
-ENTRYPOINT ["dotnet", "netcore-api.dll"]
+ENTRYPOINT ["dotnet", "Api.Test.dll"]
