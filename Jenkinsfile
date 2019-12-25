@@ -14,7 +14,7 @@ pipeline {
   }
   stage('build_image') {
    steps {
-	sh "docker build -t rokonzaman/dotnetproject /root/jenkins_agent/workspace/."
+	sh "docker build -t rokonzaman/dotnetproject /root/jenkins_agent/workspace/netcore_multi_master/."
    }
   }
  }
