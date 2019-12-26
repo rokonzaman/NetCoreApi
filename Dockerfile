@@ -4,11 +4,11 @@ WORKDIR /app
 COPY ./api/netcore-api.csproj ./
 RUN dotnet restore
 
-COPY ./api ./
-RUN dotnet publish
+COPY . ./
+RUN dotnet publish -c Release output
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:2.1
 WORKDIR /app
-COPY --from=build-env /app/bin/Debug/netcoreapp2.1/publish .
+COPY --from=build-env /app/output .
 EXPOSE 80
-CMD ["dotnet", "./bin/Debug/netcoreapp2.1/netcore-api.dll"]
+CMD ["dotnet", "DockerAPI.dll"]
