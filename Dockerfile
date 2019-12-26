@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build-env
 WORKDIR /app
 
-COPY ./api/netcore-api.csproj ./
+COPY ./DockerAPI.csproj ./
 RUN dotnet restore
 
 COPY . ./
