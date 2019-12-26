@@ -4,7 +4,7 @@ WORKDIR /app
 COPY ./api/netcore-api.csproj ./
 RUN dotnet restore
 
-COPY ./api ./
+COPY ./api/ ./
 RUN dotnet publish
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:2.1
