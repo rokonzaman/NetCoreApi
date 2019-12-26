@@ -5,7 +5,7 @@ COPY ./DockerAPI.csproj ./
 RUN dotnet restore
 
 COPY . ./
-RUN dotnet publish -c Release output
+RUN dotnet publish -c Release -o output
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:2.1
 WORKDIR /app
