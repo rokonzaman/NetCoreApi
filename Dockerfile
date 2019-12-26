@@ -5,10 +5,10 @@ COPY ./api/netcore-api.csproj ./
 RUN dotnet restore
 
 COPY ./api ./
-RUN dotnet publish -c Release out
+RUN dotnet publish
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:2.1
 WORKDIR /app
-COPY --from=build-env /app/out .
+COPY --from=build-env /app/bin/Debug/netcoreapp2.1/publish .
 EXPOSE 80
 ENTRYPOINT ["dotnet", ".\bin\Debug\netcoreapp2.1\netcore-api.dll"]
