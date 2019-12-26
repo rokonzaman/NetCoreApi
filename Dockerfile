@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
 WORKDIR /app
 
-COPY ./DockerAPI.csproj ./
+COPY ./webapp.csproj ./
 RUN dotnet restore
 
 COPY . ./
@@ -11,4 +11,4 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app
 COPY --from=build-env /app/output .
 EXPOSE 80
-CMD ["dotnet", "DockerAPI.dll"]
+CMD ["dotnet", "webapp.dll"]

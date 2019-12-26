@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rokon\\Desktop\\git\\shohoz\\netcoreapi\\DockerAPI.csproj",
-      "projectName": "DockerAPI",
-      "projectPath": "C:\\Users\\Rokon\\Desktop\\git\\shohoz\\netcoreapi\\DockerAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Rokon\\Desktop\\git\\shohoz\\netcoreapi\\webpapp.csproj",
+      "projectName": "webpapp",
+      "projectPath": "C:\\Users\\Rokon\\Desktop\\git\\shohoz\\netcoreapi\\webpapp.csproj",
       "packagesPath": "C:\\Users\\Rokon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Rokon\\Desktop\\git\\shohoz\\netcoreapi\\obj\\",
       "projectStyle": "PackageReference",

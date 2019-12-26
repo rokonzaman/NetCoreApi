@@ -1,6 +1,6 @@
 using System;
 
-namespace DockerAPI
+namespace webpapp
 {
     public class WeatherForecast
     {
