@@ -12,3 +12,17 @@ C:\Users\Rokon\Desktop\git\shohoz\netcore\api\obj\Debug\netcoreapp2.1\netcore-ap
 C:\Users\Rokon\Desktop\git\shohoz\netcore\api\obj\Debug\netcoreapp2.1\netcore-api.RazorTargetAssemblyInfo.cache
 C:\Users\Rokon\Desktop\git\shohoz\netcore\api\obj\Debug\netcoreapp2.1\netcore-api.dll
 C:\Users\Rokon\Desktop\git\shohoz\netcore\api\obj\Debug\netcoreapp2.1\netcore-api.pdb
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\bin\Debug\netcoreapp2.1\netcore-api.deps.json
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\bin\Debug\netcoreapp2.1\netcore-api.runtimeconfig.json
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\bin\Debug\netcoreapp2.1\netcore-api.runtimeconfig.dev.json
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\bin\Debug\netcoreapp2.1\netcore-api.dll
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\bin\Debug\netcoreapp2.1\netcore-api.pdb
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\obj\Debug\netcoreapp2.1\netcore-api.csprojAssemblyReference.cache
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\obj\Debug\netcoreapp2.1\netcore-api.RazorAssemblyInfo.cache
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\obj\Debug\netcoreapp2.1\netcore-api.RazorAssemblyInfo.cs
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\obj\Debug\netcoreapp2.1\netcore-api.AssemblyInfoInputs.cache
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\obj\Debug\netcoreapp2.1\netcore-api.AssemblyInfo.cs
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\obj\Debug\netcoreapp2.1\netcore-api.RazorTargetAssemblyInfo.cache
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\obj\Debug\netcoreapp2.1\netcore-api.dll
+C:\Users\Rokon\Desktop\git\shohoz\netcoreapi\api\obj\Debug\netcoreapp2.1\netcore-api.pdb

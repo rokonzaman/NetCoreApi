@@ -11884,11 +11884,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Rokon\\Desktop\\git\\shohoz\\netcore\\api\\netcore-api.csproj",
+      "projectUniqueName": "C:\\Users\\Rokon\\Desktop\\git\\shohoz\\netcoreapi\\api\\netcore-api.csproj",
       "projectName": "netcore-api",
-      "projectPath": "c:\\Users\\Rokon\\Desktop\\git\\shohoz\\netcore\\api\\netcore-api.csproj",
+      "projectPath": "C:\\Users\\Rokon\\Desktop\\git\\shohoz\\netcoreapi\\api\\netcore-api.csproj",
       "packagesPath": "C:\\Users\\Rokon\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Rokon\\Desktop\\git\\shohoz\\netcore\\api\\obj\\",
+      "outputPath": "C:\\Users\\Rokon\\Desktop\\git\\shohoz\\netcoreapi\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rokon\\AppData\\Roaming\\NuGet\\NuGet.Config",
