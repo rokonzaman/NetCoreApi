@@ -9,6 +9,6 @@ RUN dotnet publish
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:2.1
 WORKDIR /app
-COPY --from=build-env /app/bin/Debug/netcoreapp2.1/publish .
+COPY --from=build-env /app/api/bin/Debug/netcoreapp2.1/publish .
 EXPOSE 80
 ENTRYPOINT ["dotnet", "run", "netcore-api.dll"]
