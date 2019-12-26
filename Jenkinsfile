@@ -13,6 +13,11 @@ pipeline {
 	sh "docker push rokonzaman/dotnetproject"
    }
   }
+   stage('remove_image') {
+   steps {
+	sh "docker rmi rokonzaman/dotnetproject"
+   }
+  }
     stage('deployment_create') {
    steps {
 	sh "kubectl apply -f /root/netcore.yaml"
