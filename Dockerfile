@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build-env
 WORKDIR /app
 
-COPY *.csproj ./
+COPY ./api/netcore-api.csproj ./
 RUN dotnet restore
 
 COPY ./api ./
