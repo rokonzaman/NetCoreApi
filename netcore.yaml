@@ -29,7 +29,7 @@ metadata:
 spec:
   type: NodePort
   ports:
-  - port: 8000
+  - port: 80
     targetPort: master-port
     nodePort: 32221
     protocol: TCP
