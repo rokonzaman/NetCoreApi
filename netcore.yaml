@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: netcore-master-deploy
+spec:
+  selector:
+    matchLabels:
+      app: netcore-master
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: netcore-master
+    spec:
+      containers:
+      - name: netcore-master
+        image: kworker3.rokon.local:5000/netcore:tagVersion
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+          name: master-port
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: netcore-master-svc
+  labels:
+    app: netcore-master
+spec:
+  type: NodePort
+  ports:
+  - port: 8000
+    targetPort: master-port
+    nodePort: 32221
+    protocol: TCP
+  selector:
+    app: netcore-master
